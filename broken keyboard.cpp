@@ -10,14 +10,14 @@ int main()
         for(int i=0;i<a.length();i++)
         {
             if(a[i]=='[')
-				it=l.begin();
-			else if(a[i]==']')
-				it=l.end();
-			else
-				l.insert(it,a[i]);
+		it=l.begin();
+	    else if(a[i]==']')
+		it=l.end();
+	    else
+		l.insert(it,a[i]);
         }
         for(it=l.begin();it!=l.end();it++)
-			cout<<*it;
+		cout<<*it;
         cout<<endl;
     }
     return 0;
