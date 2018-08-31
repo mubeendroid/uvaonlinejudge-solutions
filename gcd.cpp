@@ -1,4 +1,3 @@
-//accepted
 #include<bits/stdc++.h>
 using namespace std;
 int gcd(int i,int j)
